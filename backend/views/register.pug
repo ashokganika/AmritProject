@@ -1,0 +1,24 @@
+html
+    head
+        title Js
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+    body.container
+        h2 Register    
+        p Please register to Continue
+        form(method="POST").form-group
+            label(for="Name") Name
+            input(type="text",name="Name",placeholder="Name").form-control
+            label(for="email") email
+            input(type="email",name="email",placeholder="email").form-control
+            label(for="username") Username
+            input(type="text",name="username",placeholder="Username").form-control
+            label(for="password") Password
+            input(type="password",name="password",placeholder="Password").form-control
+            label(for="address") Address
+            input(type="text", name="address",placeholder="address").form-control
+            br
+            input(type="submit" value="register").btn.btn-primary
+        
+        p Already Registered? 
+        p back to
+            a(href="/auth")  login        

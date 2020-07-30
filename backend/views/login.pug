@@ -1,0 +1,22 @@
+html
+    head
+        title Express
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+    body.container
+        h2 Login
+        p please Loign to Continue
+        form(method="POST")
+            label(for="username") username
+            input(type="text",name="username",placeholder="username".form-control)
+            br
+            label(for="password") password
+            input(type="password",name="password",placeholder="password".form-control)
+            br
+            input(type="submit" value="login").btn.btn-primary
+            
+      
+    p  Don't have an account?
+    p register
+        a(href="/auth/register")  here
+    p 
+        a(href="/forgot password")  forgot password?

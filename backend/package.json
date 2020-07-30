@@ -1,0 +1,29 @@
+{
+  "name": "vscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon mainfile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "password-hash": "^1.2.2",
+    "prop-types": "^15.7.2",
+    "pug": "^2.0.4",
+    "schema": "^0.2.1"
+  }
+}
